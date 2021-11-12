@@ -1,12 +1,11 @@
 def deli(x): 
         delioci=[]
-        m = list(range(1,100000)) 
+        m = list(range(1,x+1)) 
         k=0
-        while m[k]<=x:
+        while k<=(x-1):
                 if x%m[k]==0:
                         delioci.append(m[k])
-                else: 
-                        None
                 k+=1 
         return (delioci) 
- 
+
+print (deli(36643)) 
