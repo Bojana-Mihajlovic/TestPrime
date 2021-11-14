@@ -7,7 +7,7 @@ while x<100000:
     if is_palindrome(x)!=None: 
         result.append(x)
     x+=1 
-    print (result) 
+print (result) 
 
 
     
